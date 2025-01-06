@@ -1,5 +1,5 @@
 {
     "version": 2,
-    "builds": [{ "src": "index.js", "use": "@vercel/node" }],
-    "rewrites": [{ "source": "/(.*)", "destination": "index.js" }]
+    "builds": [{ "src": "Parth_Tiwari_BD_4_Assignment_1/index.js", "use": "@vercel/node" }],
+    "rewrites": [{ "source": "/(.*)", "destination": "Parth_Tiwari_BD_4_Assignment_1/index.js" }]
 }
