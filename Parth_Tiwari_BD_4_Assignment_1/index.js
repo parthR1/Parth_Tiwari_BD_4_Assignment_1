@@ -1,10 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const sqlite3 = require('sqlite3').verbose();
 const { open } = require('sqlite');
 
 const app = express();
 const port = 3000;
 
+app.use(cors);
 app.use(express.json());
 
 // db initialisation

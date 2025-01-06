@@ -5,6 +5,7 @@
     "start": "node Parth_Tiwari_BD_4_Assignment_1/index.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
